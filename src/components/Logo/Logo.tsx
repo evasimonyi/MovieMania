@@ -1,8 +1,6 @@
-import React from 'react';
-
 const Logo = () => {
   return (
-    <span className='text-pastel-grey m-4'>
+    <span>
       <strong>Movie</strong>Mania
     </span>
   )

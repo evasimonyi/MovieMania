@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Box from '@mui/system/Box';
 
 const Search = () => {
   const [value, setValue] = useState('');
@@ -8,9 +9,9 @@ const Search = () => {
   }
 
   return (
-    <>
-      <h1 className='uppercase tracking-widest text-pastel-grey text-2xl ml-1'>Find your next disney adventure!</h1>
-      <form className='flex flex-1 flex-row'>
+    <Box>
+      <h1>Find your next disney adventure!</h1>
+      <form>
         <input
           type="text"
           name="search"
@@ -18,18 +19,16 @@ const Search = () => {
           placeholder="What do you want to watch?"
           value={value}
           onChange={(event) => setValue(event.target.value)}
-          className='w-4/5 h-16 opacity-20 mr-4 rounded-lg placeholder:italic placeholder:text-pastel-grey placeholder:px-2'
         />
         <button
           onClick={handleSubmit}
           type="submit"
           id="search-submit-button"
-          className='h-16 px-10 rounded-lg bg-pastel-peach border border-pastel-grey uppercase tracking-widest'
         >
           Search
         </button>
       </form>
-    </>
+    </Box>
   )
 }
 

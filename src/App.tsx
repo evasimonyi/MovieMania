@@ -1,13 +1,13 @@
-import React from 'react';
+import Grid from '@mui/system/Unstable_Grid';
 import Dashboard from './components/Dashboard';
 import Header from './components/Header';
 
 const App = () => {
   return (
-    <div className='h-screen w-screen flex flex-col gap-2'>
+    <Grid container sx={{ height: '100vh', gridTemplateRows: '[row1-start] 25% auto;' }}>
       <Header />
       <Dashboard />
-    </div>
+    </Grid>
   );
 };
 
