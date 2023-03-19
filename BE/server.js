@@ -16,8 +16,8 @@ app.get('/api/movies', function (request, response) {
     data: movies,
   };
   response
+    .setHeader('content-type', 'application/json')
     .status(res.metadata.status)
-    .set('Content-Type', 'text/plain')
     .send(res);
 });
 
