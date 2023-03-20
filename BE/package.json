@@ -5,6 +5,7 @@
     "react-redux": "^8.0.5"
   },
   "devDependencies": {
+    "mongoose": "^7.0.2",
     "nodemon": "^2.0.21"
   },
   "scripts": {
