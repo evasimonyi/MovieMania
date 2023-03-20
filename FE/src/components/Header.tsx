@@ -4,9 +4,13 @@ import Search from './Search/Search';
 
 const Header = () => {
   return (
-    <Grid container spacing={2} sx={{ height: '30%' }}>
-      <Logo />
-      <Search />
+    <Grid container spacing={2} xs={12} sx={{ height: '25%' }}>
+      <Grid xs={12}>
+        <Logo />
+      </Grid>
+      <Grid xs={12}>
+        <Search />
+      </Grid>
     </Grid>
   )
 }

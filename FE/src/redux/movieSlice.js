@@ -3,9 +3,9 @@ import apiRequest from '../utils/apiRequest';
 
 export const fetchMovies = createAsyncThunk(
   'get-movies',
-  async (apiURL) => {
+  async () => {
     const response = await apiRequest('/movies', 'GET');
-    return response;
+    return response.data.movies;
   }
 );
 
@@ -22,7 +22,7 @@ const movieSlice = createSlice({
   extraReducers: (builder) => {
     builder
       .addCase(fetchMovies.fulfilled, (state, action) => {
-        state.movies = [...state.movies, action.payload];
+        state.movies = action.payload;
         state.isLoading = false;
         state.error = null;
       })

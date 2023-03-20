@@ -8,10 +8,7 @@ import { useAppDispatch } from '../redux/reduxHooks';
 
 const Dashboard = () => {
   const dispatch = useAppDispatch();
-  const state = useSelector((state: any) => state.movies);
-  const { movies } = state;
-
-  console.log(movies);
+  const movies = useSelector((state: any) => state.movies.movies);
 
   React.useEffect(() => {
     dispatch(fetchMovies());
@@ -19,13 +16,14 @@ const Dashboard = () => {
 
   return (
     <Grid
+      xs={12}
       sx={{
         // overflow: 'scroll',
-        backgroundImage: `url('${image}')`,
-        backgroundSize: 'cover',
+        // backgroundImage: `url('${image}')`,
+        // backgroundSize: 'cover',
         // backgroundRepeat: 'no-repeat',
         // backgroundPosition: 'center',
-        width: '100%',
+        // width: '100%',
         // height: '100%',
       }}>
       <Movies movies={movies} />
