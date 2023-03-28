@@ -5,7 +5,7 @@ export const fetchMovies = createAsyncThunk(
   'get-movies',
   async () => {
     const response = await apiRequest('/movies', 'GET');
-    return response.data.movies;
+    return response;
   }
 );
 
