@@ -21,13 +21,11 @@ const getParsedResponse = async (response) => {
   const contenttype = getContentType(response);
   const contentType = contenttype.split(';')[0];
   const responseParser = await convertResponse[contentType];
-  const parsedResponse = await responseParser(response);
-  return parsedResponse;
+  return await responseParser(response);
 };
 
 const getContentType = (response) => {
-  const contentType = response.headers.get('content-type').replace(/\s/g, '').toLowerCase();
-  return contentType;
+  return response.headers.get('content-type').replace(/\s/g, '').toLowerCase();
 };
 
 const convertResponse = {
@@ -50,7 +48,7 @@ async function apiRequest(path, method, body) {
     return handleResponse(response);
   } catch (error) {
     console.log(error); // if there is another error handler, console.log either way
-    const errorToThrow = error.metadata?.message ? error.metadata.message : error;
+    const errorToThrow = error.metadata?.message || error;
     throw new Error(errorToThrow);
   }
 }

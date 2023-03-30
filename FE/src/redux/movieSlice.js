@@ -4,8 +4,7 @@ import apiRequest from '../utils/apiRequest';
 export const fetchMovies = createAsyncThunk(
   'get-movies',
   async (apiURL) => {
-    const response = await apiRequest('/movies', 'GET');
-    return response;
+    return await apiRequest('/movies', 'GET');
   }
 );
 
@@ -35,7 +34,5 @@ const movieSlice = createSlice({
       })
   }
 });
-
-const { actions: movieActions, reducer: movieReducer } = movieSlice;
 
 export default movieSlice;
