@@ -5,13 +5,13 @@ import image from '../styles/images/dashboard-bg.jpg';
 import Grid from '@mui/system/Unstable_Grid';
 import Movies from './Movies';
 import { useAppDispatch } from '../redux/reduxHooks';
+import { RootState } from '../redux/store';
 
 const Dashboard = () => {
   const dispatch = useAppDispatch();
-  const state = useSelector((state: any) => state.movies);
-  const { movies } = state;
+  const state = useSelector((state: RootState) => state.movies);
 
-  console.log(movies);
+  const { movies } = state;
 
   React.useEffect(() => {
     dispatch(fetchMovies());

@@ -12,7 +12,6 @@ type MoviesProps = { movies: Movie[] };
 
 const Movies = (props: MoviesProps) => {
   const { movies } = props;
-  console.log(movies);
   return (
     <Grid
       container
@@ -21,12 +20,12 @@ const Movies = (props: MoviesProps) => {
         gridTemplateColumns: 'minmax(200px, 1fr) 3fr;',
       }}
     >
-      {/* {movies.map((movie) => (
+      {movies.map((movie) => (
         <Grid key={movie.id}>
           <img src={movie.img} alt='movie' style={{ width: '200px', height: '300px' }}></img>
         </Grid>
       ))
-      } */}
+      }
     </Grid >
   );
 };
