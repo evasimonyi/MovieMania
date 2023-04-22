@@ -19,7 +19,7 @@ const Dashboard = () => {
       container
       xs={12}
       sx={{
-        overflow: 'scroll',
+        overflow: 'auto',
         backgroundImage: `url('${image}')`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',

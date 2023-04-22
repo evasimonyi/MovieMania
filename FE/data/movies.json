@@ -5,7 +5,7 @@
       "title": "Snow White and the Seven Dwarfs",
       "year": "1937",
       "img": "https://static.wikia.nocookie.net/disney/images/4/41/Snow_White_and_the_Seven_Dwarfs%28Diamond_Edition_2009%29.jpg",
-      "length": "83",
+      "playTime": "83",
       "genres": [
         "disney"
       ]
@@ -15,7 +15,7 @@
       "title": "Pinocchio",
       "year": "1940",
       "img": "https://static.wikia.nocookie.net/disney/images/f/f0/PinocchioPoster.jpeg",
-      "length": "88",
+      "playTime": "88",
       "genres": [
         "disney"
       ]
@@ -25,7 +25,7 @@
       "title": "Fantasia",
       "year": "1940",
       "img": "https://static.wikia.nocookie.net/disney/images/1/12/Fantasia-poster-1940.jpg",
-      "length": "124",
+      "playTime": "124",
       "genres": [
         "disney"
       ]
@@ -35,7 +35,7 @@
       "title": "Dumbo",
       "year": "1941",
       "img": "https://static.wikia.nocookie.net/disney/images/1/1f/Dumbo_1972_rerelease.jpg",
-      "length": "64",
+      "playTime": "64",
       "genres": [
         "disney"
       ]
@@ -45,7 +45,7 @@
       "title": "Bambi",
       "year": "1942",
       "img": "https://static.wikia.nocookie.net/disney/images/0/0d/Bambi_DiamondEdition.jpg",
-      "length": "70",
+      "playTime": "70",
       "genres": [
         "disney"
       ]
@@ -55,7 +55,7 @@
       "title": "Saludos Amigos",
       "year": "1942",
       "img": "https://static.wikia.nocookie.net/disney/images/2/29/Tumblr_n6ykw8dgyV1skqw0co1_1280.jpg",
-      "length": "42",
+      "playTime": "42",
       "genres": [
         "disney"
       ]
@@ -65,7 +65,7 @@
       "title": "The Three Caballeros",
       "year": "1944",
       "img": "https://static.wikia.nocookie.net/disney/images/7/7b/Three_caballeros_poster.png",
-      "length": "72",
+      "playTime": "72",
       "genres": [
         "disney"
       ]
@@ -75,7 +75,7 @@
       "title": "Make Mine Music",
       "year": "1946",
       "img": "https://static.wikia.nocookie.net/disney/images/2/23/MakeMineMusicPoster.jpeg",
-      "length": "76",
+      "playTime": "76",
       "genres": [
         "disney"
       ]
@@ -85,7 +85,7 @@
       "title": "Fun and Fancy Free",
       "year": "1947",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -95,7 +95,7 @@
       "title": "Melody Time",
       "year": "1948",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -105,7 +105,7 @@
       "title": "The Adventures of Ichabod and Mr.Toad",
       "year": "1949",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -115,7 +115,7 @@
       "title": "Cinderella",
       "year": "1950",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -125,7 +125,7 @@
       "title": "Alice in Wonderland",
       "year": "1951",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -135,7 +135,7 @@
       "title": "Peter Pan",
       "year": "1953",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -145,7 +145,7 @@
       "title": "Lady and the Tramp",
       "year": "1955",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -155,7 +155,7 @@
       "title": "Sleeping Beauty",
       "year": "1959",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -165,7 +165,7 @@
       "title": "101 Dalmatians",
       "year": "1961",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -175,7 +175,7 @@
       "title": "The Sword in the Stone",
       "year": "1963",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -185,7 +185,7 @@
       "title": "The Jungle Book",
       "year": "1967",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -195,7 +195,7 @@
       "title": "The Aristocats",
       "year": "1970",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -205,7 +205,7 @@
       "title": "Robin Hood",
       "year": "1973",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -215,7 +215,7 @@
       "title": "The Many Adventures of Winnie the Pooh",
       "year": "1977",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -225,7 +225,7 @@
       "title": "The Rescuers",
       "year": "1977",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -235,7 +235,7 @@
       "title": "The Fox and the Hound",
       "year": "1981",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -245,7 +245,7 @@
       "title": "The Black Cauldron",
       "year": "1985",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -255,7 +255,7 @@
       "title": "The Great Mouse Detective",
       "year": "1986",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -265,7 +265,7 @@
       "title": "Oliver & Company",
       "year": "1988",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -275,7 +275,7 @@
       "title": "The Little Mermaid",
       "year": "1989",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -285,7 +285,7 @@
       "title": "The Rescuers Down Under",
       "year": "1990",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -295,7 +295,7 @@
       "title": "Beauty and the Beast",
       "year": "1991",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -305,7 +305,7 @@
       "title": "Aladdin",
       "year": "1992",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -315,7 +315,7 @@
       "title": "The Lion King",
       "year": "1994",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -325,7 +325,7 @@
       "title": "Pocahontas",
       "year": "1995",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -335,7 +335,7 @@
       "title": "The Hunchback of Notre Dame",
       "year": "1996",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -345,7 +345,7 @@
       "title": "Hercules",
       "year": "1997",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -355,7 +355,7 @@
       "title": "Mulan",
       "year": "1998",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -365,7 +365,7 @@
       "title": "Tarzan",
       "year": "1999",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -375,7 +375,7 @@
       "title": "Fantasia 2000",
       "year": "2000",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -385,7 +385,7 @@
       "title": "Dinosaur",
       "year": "2000",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -395,7 +395,7 @@
       "title": "The Emperor's New Groove",
       "year": "2000",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -405,7 +405,7 @@
       "title": "Atlantis: The Lost Empire",
       "year": "2001",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -415,7 +415,7 @@
       "title": "Lilo & Stitch",
       "year": "2002",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -425,7 +425,7 @@
       "title": "Treasure Planet",
       "year": "2002",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -435,7 +435,7 @@
       "title": "Brother Bear",
       "year": "2003",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -445,7 +445,7 @@
       "title": "Home on the Range",
       "year": "2004",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -455,7 +455,7 @@
       "title": "Chicken Little",
       "year": "2005",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -465,7 +465,7 @@
       "title": "Meet the Robinsons",
       "year": "2007",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -475,7 +475,7 @@
       "title": "Bolt",
       "year": "2008",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -485,7 +485,7 @@
       "title": "The Princess and the Frog",
       "year": "2009",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -495,7 +495,7 @@
       "title": "Tangled",
       "year": "2010",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -505,7 +505,7 @@
       "title": "Winnie the Pooh",
       "year": "2011",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -515,7 +515,7 @@
       "title": "Wreck - It Ralph",
       "year": "2012",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -525,7 +525,7 @@
       "title": "Frozen",
       "year": "2013",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -535,7 +535,7 @@
       "title": "Big Hero 6",
       "year": "2014",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -545,7 +545,7 @@
       "title": "Zootopia",
       "year": "2016",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -555,7 +555,7 @@
       "title": "Moana",
       "year": "2016",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -565,7 +565,7 @@
       "title": "Ralph Breaks the Internet",
       "year": "2018",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -575,7 +575,7 @@
       "title": "Frozen II",
       "year": "2019",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -585,7 +585,7 @@
       "title": "Raya and the Last Dragon",
       "year": "2021",
       "img": "https://upload.wikimedia.org/wikipedia/hu/8/8a/Raya_6V.jpg",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -595,7 +595,7 @@
       "title": "Encanto",
       "year": "2021",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]
@@ -605,7 +605,7 @@
       "title": "Strange World",
       "year": "2022",
       "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzbmV5JTIwY2FzdGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "length": "0",
+      "playTime": "0",
       "genres": [
         "disney"
       ]

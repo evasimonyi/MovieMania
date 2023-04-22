@@ -8,7 +8,7 @@ const Movie = (props: MovieProps) => {
   const { movie } = props;
   return (
     <>
-      <div key={movie._id}>
+      <div>
         <img src={movie.img} alt='movie'></img>
       </div>
     </>
