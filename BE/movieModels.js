@@ -14,16 +14,17 @@ const MovieSchema = new Schema({
     type: String,
     required: true,
   },
-  length: {
+  playTime: {
     type: String,
     required: true,
   },
   genres: {
     type: [String],
+    enum: ['disney', 'action', 'romantic comedy', 'horror', 'sci-fi', 'drama', 'documentary'],
     default: [],
   }
 });
 
-const Movie = mongoose.model('Movie', MovieSchema, 'disney_movies');
+const Movie = mongoose.model('Movie', MovieSchema, 'movies');
 
 module.exports = Movie;
