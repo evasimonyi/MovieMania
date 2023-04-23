@@ -5,7 +5,7 @@ const Search = () => {
   const [value, setValue] = useState('');
 
   const handleSubmit = (event: React.MouseEvent) => {
-    console.log('submit');
+    // console.log('submit');
   }
 
   return (

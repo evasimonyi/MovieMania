@@ -1,12 +1,9 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import apiRequest from '../utils/apiRequest';
+import { getMovies } from '../utils/movieMethods';
 
 export const fetchMovies = createAsyncThunk(
   'get-movies',
-  async () => {
-    const response = await apiRequest('/movies', 'GET');
-    return response;
-  }
+  async () => await getMovies(),
 );
 
 const initialState = {
@@ -30,12 +27,11 @@ const movieSlice = createSlice({
         state.isLoading = true;
       })
       .addCase(fetchMovies.rejected, (state, action) => {
+        state.movies = [];
         state.isLoading = false;
         state.error = action.error.message;
       })
   }
 });
-
-const { actions: movieActions, reducer: movieReducer } = movieSlice;
 
 export default movieSlice;
