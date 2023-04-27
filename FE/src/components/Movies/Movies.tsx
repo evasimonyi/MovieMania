@@ -1,4 +1,5 @@
-import Grid from '@mui/system/Unstable_Grid';
+import Grid from '@mui/material/Grid';
+import Movie from './Movie';
 import { MovieType } from './MovieTypes';
 
 type MoviesProps = { movies: MovieType[] };
@@ -9,17 +10,15 @@ const Movies = (props: MoviesProps) => {
   return (
     <Grid
       container
-      xs={10}
-      sx={{
-        justifyContent: 'space-between',
-        rowGap: 4,
-        columnGap: 3
-      }}
+      gap={{ xs: 2, sm: 3, md: 5 }}
+      justifyContent="center"
+      // alignItems="center"
+      direction="row"
     >
       {
         movies.map((movie) => (
-          <Grid key={movie._id}>
-            <img src={movie.img} alt={movie.title} style={{ width: '200px', height: '300px' }}></img>
+          <Grid item xs={5} md={2.5} lg={2} xl={1.5} key={movie._id} sx={{ padding: '0 !important' }}>
+            <Movie movie={movie} />
           </Grid>
         ))
       }

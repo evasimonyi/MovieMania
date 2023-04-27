@@ -1,19 +1,31 @@
-import Box from '@mui/system/Box';
-import Grid from '@mui/system/Unstable_Grid';
+import { useState } from 'react';
 import Stack from '@mui/material/Stack';
 import Dashboard from './components/Dashboard';
 import Header from './components/Header';
+import image from './styles/images/corina-rainer-P2wLo_PzHjU-unsplash.jpg';
 
 const App = () => {
+  const [searchedMovie, setSearchedMovie] = useState('');
   return (
-    <Stack direction="column">
-      <Box sx={{ display: 'flex', width: '100%', height: '25%' }}>
-        <Header />
-      </Box>
-      <Box sx={{ display: 'flex', width: '100%', flex: 1, overflow: 'hidden' }}>
-        <Dashboard />
-      </Box>
-    </Stack>
+    <Stack
+      direction="column"
+      sx={{
+        overflow: 'auto',
+        backgroundImage: `url('${image}')`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        height: '100%',
+        justifyContent: 'center',
+        gap: '1em',
+      }}
+    >
+      <Header
+        searchedMovie={searchedMovie}
+        setSearchedMovie={setSearchedMovie}
+      />
+      <Dashboard searchedMovie={searchedMovie} />
+    </Stack >
   );
 };
 
