@@ -1,12 +1,19 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { getMovies } from '../utils/movieMethods';
+import { MovieType } from '../components/Movies/MovieTypes';
 
 export const fetchMovies = createAsyncThunk(
   'get-movies',
   async () => await getMovies(),
 );
 
-const initialState = {
+type StateType = {
+  movies: MovieType[],
+  isLoading: boolean,
+  error: any,
+}
+
+const initialState: StateType = {
   movies: [],
   isLoading: false,
   error: null,

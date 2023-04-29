@@ -16,8 +16,10 @@ const Dashboard = (props: DashboardProps) => {
   const { searchedMovie } = props;
   const dispatch = useAppDispatch();
   const state = useSelector((state: RootState) => state.movies);
+  const movieState = useSelector((state: RootState) => state.watchlist);
   const { movies } = state;
 
+  console.log(movieState);
   const [filteredMovies, setFilteredMovies] = useState<MovieType[]>([]);
 
   useEffect(() => {

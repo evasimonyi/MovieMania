@@ -4,7 +4,9 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import { useAppDispatch } from '../../redux/reduxHooks';
 import { MovieType } from './MovieTypes';
+import { addToWatchlist } from '../../redux/userSlice';
 
 type MovieProps = {
   movie: MovieType,
@@ -12,6 +14,12 @@ type MovieProps = {
 
 const Movie = (props: MovieProps) => {
   const { movie } = props;
+  const dispatch = useAppDispatch();
+
+  const handleClick = () => {
+    dispatch(addToWatchlist(movie));
+  };
+
   return (
     <Card
       sx={{
@@ -53,7 +61,7 @@ const Movie = (props: MovieProps) => {
             marginTop: 'auto'
           }}
         >
-          <Button>Add to watchlist</Button>
+          <Button onClick={handleClick}>Add to watchlist</Button>
         </CardActions>
       </CardContent>
     </Card >
