@@ -19,7 +19,7 @@ const Movies = (props: MoviesProps) => {
       {
         movies.map((movie) => (
           <Grid key={movie._id}>
-            <img src={movie.img} alt={movie.title} style={{ width: '200px', height: '300px' }}></img>
+            <img src={movie.img} alt={movie.title} style={{ width: '200px', height: '300px' }} />
           </Grid>
         ))
       }
