@@ -10,7 +10,7 @@ const Search = () => {
 
   return (
     <Box>
-      <h1>Find your next disney adventure!</h1>
+      <h1>Find your next adventure!</h1>
       <form>
         <input
           type="text"
