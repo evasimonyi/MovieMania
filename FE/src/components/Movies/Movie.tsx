@@ -9,7 +9,7 @@ const Movie = (props: MovieProps) => {
   return (
     <>
       <div>
-        <img src={movie.img} alt='movie' />
+        <img src={movie.img} alt="movie" />
       </div>
     </>
   );

@@ -3,7 +3,7 @@ const Logo = () => {
     <span>
       <strong>Movie</strong>Mania
     </span>
-  )
-}
+  );
+};
 
 export default Logo;

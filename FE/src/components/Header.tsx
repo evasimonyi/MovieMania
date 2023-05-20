@@ -4,7 +4,15 @@ import Search from './Search/Search';
 
 const Header = () => {
   return (
-    <Grid container spacing={2} xs={12} sx={{ justifyContent: 'center', margin: 0 }}>
+    <Grid
+      container
+      spacing={2}
+      xs={12}
+      sx={{
+        justifyContent: 'center',
+        margin: 0,
+      }}
+    >
       <Grid xs={12}>
         <Logo />
       </Grid>

@@ -28,7 +28,8 @@ const Dashboard = () => {
         backgroundPosition: 'center',
         height: '100%',
         justifyContent: 'center',
-      }}>
+      }}
+    >
       <Movies movies={movies} />
     </Grid>
   )
