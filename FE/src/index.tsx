@@ -7,8 +7,9 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 
 const root = createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById('root') as HTMLElement,
 );
+
 root.render(
   <React.StrictMode>
     <Provider store={store}>

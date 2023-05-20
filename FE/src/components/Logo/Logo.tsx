@@ -18,7 +18,7 @@ const Logo = () => {
         <strong>Movie</strong>Mania
       </Typography>
     </Box>
-  )
-}
+  );
+};
 
 export default Logo;

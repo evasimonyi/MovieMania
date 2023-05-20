@@ -9,14 +9,14 @@ import { MovieType } from './Movies/MovieTypes';
 import { findMovies } from '../utils/movieMethods';
 
 type DashboardProps = {
-  searchedMovie: string,
-}
+  searchedMovie: string;
+};
 
 const Dashboard = (props: DashboardProps) => {
   const { searchedMovie } = props;
   const dispatch = useAppDispatch();
-  const state = useSelector((state: RootState) => state.movies);
-  const { movies } = state;
+  const appState = useSelector((state: RootState) => state.movies);
+  const { movies } = appState;
 
   const [filteredMovies, setFilteredMovies] = useState<MovieType[]>([]);
 
@@ -39,13 +39,13 @@ const Dashboard = (props: DashboardProps) => {
         width: '100%',
         flex: 1,
         paddingBottom: '1em',
-        overflow: 'auto'
+        overflow: 'auto',
       }}
     >
       {searchedMovie.length > 0 && <Movies movies={filteredMovies} />}
       {searchedMovie.length === 0 && <Movies movies={movies} />}
     </Grid>
-  )
-}
+  );
+};
 
 export default Dashboard;

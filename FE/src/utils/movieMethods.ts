@@ -7,5 +7,7 @@ export const getMovies = async () => {
 };
 
 export const findMovies = (searchedMovie: string, movies: MovieType[]) => {
-  return movies.filter((movie: MovieType) => movie.title.toLocaleLowerCase().includes(searchedMovie.toLocaleLowerCase()));
-}
+  return movies.filter((movie: MovieType) =>
+    movie.title.toLocaleLowerCase().includes(searchedMovie.toLocaleLowerCase())
+  );
+};

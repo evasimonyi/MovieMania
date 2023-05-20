@@ -9,7 +9,7 @@ import { MovieType } from './MovieTypes';
 import { addToWatchlist } from '../../redux/userSlice';
 
 type MovieProps = {
-  movie: MovieType,
+  movie: MovieType;
 };
 
 const Movie = (props: MovieProps) => {

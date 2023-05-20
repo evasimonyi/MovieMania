@@ -25,7 +25,7 @@ const App = () => {
         setSearchedMovie={setSearchedMovie}
       />
       <Dashboard searchedMovie={searchedMovie} />
-    </Stack >
+    </Stack>
   );
 };
 

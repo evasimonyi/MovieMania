@@ -8,20 +8,20 @@ export const fetchMovies = createAsyncThunk(
 );
 
 type StateType = {
-  movies: MovieType[],
-  isLoading: boolean,
-  error: unknown,
-}
+  movies: MovieType[];
+  isLoading: boolean;
+  error: unknown;
+};
 
 const initialState: StateType = {
   movies: [],
   isLoading: false,
   error: null,
-}
+};
 
 const movieSlice = createSlice({
   name: 'movies',
-  initialState: initialState,
+  initialState,
   reducers: {},
   extraReducers: (builder) => {
     builder
@@ -37,8 +37,8 @@ const movieSlice = createSlice({
         state.movies = [];
         state.isLoading = false;
         state.error = action.error.message;
-      })
-  }
+      });
+  },
 });
 
 export default movieSlice;

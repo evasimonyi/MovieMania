@@ -5,9 +5,9 @@ import TextField from '@mui/material/TextField';
 import FormGroup from '@mui/material/FormGroup';
 
 type SearchProps = {
-  searchedMovie: string,
-  setSearchedMovie: (searchedMovie: string) => void
-}
+  searchedMovie: string;
+  setSearchedMovie: (searchedMovie: string) => void;
+};
 
 const Search = (props: SearchProps) => {
   const {
@@ -50,7 +50,7 @@ const Search = (props: SearchProps) => {
             display: 'flex',
             flex: 1,
             border: 'none',
-            borderRadius: '.3em'
+            borderRadius: '.3em',
           }}
         >
           <TextField
@@ -71,7 +71,7 @@ const Search = (props: SearchProps) => {
         </FormControl>
       </FormGroup>
     </Box>
-  )
-}
+  );
+};
 
 export default Search;

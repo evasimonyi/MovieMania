@@ -23,37 +23,27 @@
     "ecmaVersion": "latest",
     "sourceType": "module",
     "tsconfigRootDir": ".",
-    "project": "./tsconfig.json"
+    "project": "tsconfig.json"
   },
   // Configuring third-party plugins
   "plugins": [
     "react",
     "@typescript-eslint"
   ],
-  // Resolve imports
-  "settings": {
-    "import/resolver": {
-      "typescript": {
-        "project": "./tsconfig.json"
-      }
-    },
-    "react": {
-      "version": "18.x"
-    }
-  },
   "rules": {
     "linebreak-style": "off",
     // Configure prettier
     "prettier/prettier": [
       "error",
       {
-        "printWidth": 80,
+        "printWidth": 120,
         "endOfLine": "lf",
         "singleQuote": true,
         "tabWidth": 2,
         "indentStyle": "space",
         "useTabs": false,
-        "trailingComma": "es5"
+        "trailingComma": "es5",
+        "jsxBracketSameLine": false
       }
     ],
     // Disallow the `any` type.

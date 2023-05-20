@@ -3,9 +3,9 @@ import Logo from './Logo/Logo';
 import Search from './Search/Search';
 
 type HeaderProps = {
-  searchedMovie: string,
-  setSearchedMovie: (searchedMovie: string) => void
-}
+  searchedMovie: string;
+  setSearchedMovie: (searchedMovie: string) => void;
+};
 
 const Header = (props: HeaderProps) => {
   const {
