@@ -1,25 +1,32 @@
-import Grid from '@mui/system/Unstable_Grid/Grid';
+import Box from '@mui/material/Box';
 import Logo from './Logo/Logo';
 import Search from './Search/Search';
 
-const Header = () => {
+type HeaderProps = {
+  searchedMovie: string,
+  setSearchedMovie: (searchedMovie: string) => void
+}
+
+const Header = (props: HeaderProps) => {
+  const {
+    searchedMovie,
+    setSearchedMovie,
+  } = props;
+
   return (
-    <Grid
-      container
-      spacing={2}
-      xs={12}
+    <Box
       sx={{
-        justifyContent: 'center',
+        display: 'flex',
+        flexDirection: 'column',
+        flexWrap: 'wrap',
+        width: '100%',
+        height: '25%',
+        background: 'rgba(250, 250, 250, 0.5)',
         margin: 0,
-      }}
-    >
-      <Grid xs={12}>
-        <Logo />
-      </Grid>
-      <Grid xs={10}>
-        <Search />
-      </Grid>
-    </Grid >
+      }}>
+      <Logo />
+      <Search searchedMovie={searchedMovie} setSearchedMovie={setSearchedMovie} />
+    </Box>
   )
 }
 
