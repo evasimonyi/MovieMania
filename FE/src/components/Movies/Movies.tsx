@@ -12,7 +12,6 @@ const Movies = (props: MoviesProps) => {
       container
       gap={{ xs: 2, sm: 3, md: 5 }}
       justifyContent="center"
-      // alignItems="center"
       direction="row"
     >
       {

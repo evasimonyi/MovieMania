@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
-// const port = 3001;
-const port = 3005;
+const port = 3001;
 const cors = require('cors');
 const router = require('./routes')
 const initMongoose = require('./db-connection');

@@ -10,7 +10,7 @@ export const fetchMovies = createAsyncThunk(
 type StateType = {
   movies: MovieType[],
   isLoading: boolean,
-  error: any,
+  error: unknown,
 }
 
 const initialState: StateType = {
