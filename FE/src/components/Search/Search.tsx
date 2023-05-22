@@ -1,19 +1,21 @@
+import { useSelector } from 'react-redux';
 import Box from '@mui/system/Box';
 import Typography from '@mui/material/Typography';
 import FormControl from '@mui/material/FormControl';
 import TextField from '@mui/material/TextField';
 import FormGroup from '@mui/material/FormGroup';
+import { useAppDispatch } from '../../redux/reduxHooks';
+import { updateSearchedMovie } from '../../redux/movieSlice';
+import { RootState } from '../../redux/store';
 
-type SearchProps = {
-  searchedMovie: string;
-  setSearchedMovie: (searchedMovie: string) => void;
-};
+const Search = () => {
+  const dispatch = useAppDispatch();
 
-const Search = (props: SearchProps) => {
-  const {
-    searchedMovie,
-    setSearchedMovie,
-  } = props;
+  const searchedMovieTitle = useSelector((state: RootState) => state.movies.searchedMovieTitle);
+
+  const handleChange = (movieTitle: string) => {
+    dispatch(updateSearchedMovie(movieTitle));
+  };
 
   return (
     <Box
@@ -42,7 +44,7 @@ const Search = (props: SearchProps) => {
           display: 'flex',
           width: '100%',
           flexDirection: 'row',
-          gap: '1em',
+          gap: '1rem',
         }}
       >
         <FormControl
@@ -50,7 +52,7 @@ const Search = (props: SearchProps) => {
             display: 'flex',
             flex: 1,
             border: 'none',
-            borderRadius: '.3em',
+            borderRadius: '.3em'
           }}
         >
           <TextField
@@ -59,8 +61,8 @@ const Search = (props: SearchProps) => {
             name="search"
             id="search"
             placeholder="What do you want to watch?"
-            value={searchedMovie}
-            onChange={(event) => setSearchedMovie(event.target.value)}
+            value={searchedMovieTitle}
+            onChange={(event) => handleChange(event.target.value)}
             sx={{
               backgroundColor: 'white',
               border: 'none',
@@ -71,7 +73,7 @@ const Search = (props: SearchProps) => {
         </FormControl>
       </FormGroup>
     </Box>
-  );
-};
+  )
+}
 
 export default Search;
