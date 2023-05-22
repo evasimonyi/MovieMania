@@ -20,7 +20,7 @@ const App = () => {
     >
       <Header />
       <Dashboard />
-    </Stack >
+    </Stack>
   );
 };
 

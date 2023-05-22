@@ -58,7 +58,7 @@ const Movie = (props: MovieProps) => {
         </Typography>
         <CardActions
           sx={{
-            marginTop: 'auto'
+            marginTop: 'auto',
           }}
         >
           <Button onClick={handleClick}>Add to watchlist</Button>

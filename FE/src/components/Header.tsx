@@ -13,7 +13,8 @@ const Header = () => {
         height: '25%',
         background: 'rgba(250, 250, 250, 0.5)',
         margin: 0,
-      }}>
+      }}
+    >
       <Logo />
       <Search />
     </Box>

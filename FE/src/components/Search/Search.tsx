@@ -52,7 +52,7 @@ const Search = () => {
             display: 'flex',
             flex: 1,
             border: 'none',
-            borderRadius: '.3em'
+            borderRadius: '.3em',
           }}
         >
           <TextField
@@ -73,7 +73,7 @@ const Search = () => {
         </FormControl>
       </FormGroup>
     </Box>
-  )
-}
+  );
+};
 
 export default Search;
