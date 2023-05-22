@@ -11,7 +11,9 @@ import { RootState } from '../../redux/store';
 const Search = () => {
   const dispatch = useAppDispatch();
 
-  const searchedMovieTitle = useSelector((state: RootState) => state.movies.searchedMovieTitle);
+  const searchedMovieTitle = useSelector(
+    (state: RootState) => state.movies.searchedMovieTitle
+  );
 
   const handleChange = (movieTitle: string) => {
     dispatch(updateSearchedMovie(movieTitle));

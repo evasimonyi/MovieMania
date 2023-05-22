@@ -12,10 +12,11 @@ const Dashboard = () => {
   const { movies } = movieState;
 
   const filteredMovies = useMemo(() => {
-    return findMovies(movieState.searchedMovieTitle, movies)
+    return findMovies(movieState.searchedMovieTitle, movies);
   }, [movieState.searchedMovieTitle]);
 
   useEffect(() => {
+    // eslint-disable-next-line @typescript-eslint/no-floating-promises
     dispatch(fetchMovies());
   }, [dispatch]);
 
@@ -28,12 +29,16 @@ const Dashboard = () => {
         width: '100%',
         flex: 1,
         paddingBottom: '1em',
-        overflow: 'auto'
+        overflow: 'auto',
       }}
     >
-      <Movies movies={movieState.searchedMovieTitle.length > 0 ? filteredMovies : movies} />
+      <Movies
+        movies={
+          movieState.searchedMovieTitle.length > 0 ? filteredMovies : movies
+        }
+      />
     </Grid>
-  )
-}
+  );
+};
 
 export default Dashboard;

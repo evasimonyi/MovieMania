@@ -30,13 +30,16 @@
     "react",
     "@typescript-eslint"
   ],
+  "ignorePatterns": [
+    "**/reportWebVitals.ts"
+  ],
   "rules": {
     "linebreak-style": "off",
     // Configure prettier
     "prettier/prettier": [
       "error",
       {
-        "printWidth": 120,
+        "printWidth": 80,
         "endOfLine": "lf",
         "singleQuote": true,
         "tabWidth": 2,
@@ -47,6 +50,7 @@
       }
     ],
     // Disallow the `any` type.
+    "@typescript-eslint/no-empty-function": "warn",
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/ban-types": [
       "error",

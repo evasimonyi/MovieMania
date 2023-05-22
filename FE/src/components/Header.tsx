@@ -18,7 +18,7 @@ const Header = () => {
       <Logo />
       <Search />
     </Box>
-  )
-}
+  );
+};
 
 export default Header;

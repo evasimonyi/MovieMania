@@ -5,7 +5,7 @@ import userSlice from './userSlice';
 const store = configureStore({
   reducer: {
     movies: movieSlice.reducer,
-    watchlist: userSlice.reducer,
+    user: userSlice.reducer,
   },
 });
 
