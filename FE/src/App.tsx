@@ -1,11 +1,9 @@
-import { useState } from 'react';
 import Stack from '@mui/material/Stack';
 import Dashboard from './components/Dashboard';
 import Header from './components/Header';
 import image from './styles/images/corina-rainer-P2wLo_PzHjU-unsplash.jpg';
 
 const App = () => {
-  const [searchedMovie, setSearchedMovie] = useState('');
   return (
     <Stack
       direction="column"
@@ -17,14 +15,11 @@ const App = () => {
         backgroundPosition: 'center',
         height: '100%',
         justifyContent: 'center',
-        gap: '1em',
+        gap: '1rem',
       }}
     >
-      <Header
-        searchedMovie={searchedMovie}
-        setSearchedMovie={setSearchedMovie}
-      />
-      <Dashboard searchedMovie={searchedMovie} />
+      <Header />
+      <Dashboard />
     </Stack >
   );
 };

@@ -2,17 +2,7 @@ import Box from '@mui/material/Box';
 import Logo from './Logo/Logo';
 import Search from './Search/Search';
 
-type HeaderProps = {
-  searchedMovie: string,
-  setSearchedMovie: (searchedMovie: string) => void
-}
-
-const Header = (props: HeaderProps) => {
-  const {
-    searchedMovie,
-    setSearchedMovie,
-  } = props;
-
+const Header = () => {
   return (
     <Box
       sx={{
@@ -25,7 +15,7 @@ const Header = (props: HeaderProps) => {
         margin: 0,
       }}>
       <Logo />
-      <Search searchedMovie={searchedMovie} setSearchedMovie={setSearchedMovie} />
+      <Search />
     </Box>
   )
 }
