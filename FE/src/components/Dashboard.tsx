@@ -1,8 +1,7 @@
-import * as React from 'react';
+import { useEffect, useMemo } from 'react';
 import { useSelector } from 'react-redux';
-import { fetchMovies } from '../redux/movieSlice';
-import image from '../styles/images/dashboard-bg.jpg';
-import Grid from '@mui/system/Unstable_Grid';
+import { fetchMovies, findMovies } from '../redux/movieSlice';
+import Grid from '@mui/material/Grid';
 import Movies from './Movies/Movies';
 import { useAppDispatch } from '../redux/reduxHooks';
 import { RootState } from '../redux/store';
@@ -12,24 +11,25 @@ const Dashboard = () => {
   const state = useSelector((state: RootState) => state.movies);
   const { movies } = state;
 
-  React.useEffect(() => {
+  const filteredMovies = useMemo(() => findMovies(state.searchedMovieTitle, movies), [state.searchedMovieTitle]);
+
+  useEffect(() => {
     dispatch(fetchMovies());
   }, [dispatch]);
 
   return (
     <Grid
       container
-      xs={12}
       sx={{
-        overflow: 'auto',
-        backgroundImage: `url('${image}')`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-        height: '100%',
         justifyContent: 'center',
-      }}>
-      <Movies movies={movies} />
+        display: 'flex',
+        width: '100%',
+        flex: 1,
+        paddingBottom: '1em',
+        overflow: 'auto'
+      }}
+    >
+      <Movies movies={state.searchedMovieTitle.length > 0 ? filteredMovies : movies} />
     </Grid>
   )
 }
