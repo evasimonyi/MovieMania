@@ -8,12 +8,15 @@ import { RootState } from '../redux/store';
 
 const Dashboard = () => {
   const dispatch = useAppDispatch();
-  const state = useSelector((state: RootState) => state.movies);
-  const { movies } = state;
+  const movieState = useSelector((state: RootState) => state.movies);
+  const { movies } = movieState;
 
-  const filteredMovies = useMemo(() => findMovies(state.searchedMovieTitle, movies), [state.searchedMovieTitle]);
+  const filteredMovies = useMemo(() => {
+    return findMovies(movieState.searchedMovieTitle, movies);
+  }, [movieState.searchedMovieTitle]);
 
   useEffect(() => {
+    // eslint-disable-next-line @typescript-eslint/no-floating-promises
     dispatch(fetchMovies());
   }, [dispatch]);
 
@@ -26,12 +29,16 @@ const Dashboard = () => {
         width: '100%',
         flex: 1,
         paddingBottom: '1em',
-        overflow: 'auto'
+        overflow: 'auto',
       }}
     >
-      <Movies movies={state.searchedMovieTitle.length > 0 ? filteredMovies : movies} />
+      <Movies
+        movies={
+          movieState.searchedMovieTitle.length > 0 ? filteredMovies : movies
+        }
+      />
     </Grid>
-  )
-}
+  );
+};
 
 export default Dashboard;

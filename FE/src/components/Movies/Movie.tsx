@@ -9,7 +9,7 @@ import { MovieType } from './MovieTypes';
 import { addToWatchlist } from '../../redux/userSlice';
 
 type MovieProps = {
-  movie: MovieType,
+  movie: MovieType;
 };
 
 const Movie = (props: MovieProps) => {
@@ -37,11 +37,7 @@ const Movie = (props: MovieProps) => {
         },
       }}
     >
-      <CardMedia
-        image={movie.img}
-        title={movie.title}
-        component="img"
-      />
+      <CardMedia image={movie.img} title={movie.title} component="img" />
       <CardContent
         sx={{
           justifyContent: 'space-around',
@@ -50,7 +46,12 @@ const Movie = (props: MovieProps) => {
           flexDirection: 'column',
         }}
       >
-        <Typography gutterBottom variant="subtitle1" component="div" sx={{ textAlign: 'center' }}>
+        <Typography
+          gutterBottom
+          variant="subtitle1"
+          component="div"
+          sx={{ textAlign: 'center' }}
+        >
           {movie.title}
         </Typography>
         <Typography variant="subtitle2" color="text.secondary">
@@ -58,13 +59,13 @@ const Movie = (props: MovieProps) => {
         </Typography>
         <CardActions
           sx={{
-            marginTop: 'auto'
+            marginTop: 'auto',
           }}
         >
           <Button onClick={handleClick}>Add to watchlist</Button>
         </CardActions>
       </CardContent>
-    </Card >
+    </Card>
   );
 };
 

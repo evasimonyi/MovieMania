@@ -14,14 +14,20 @@ const Movies = (props: MoviesProps) => {
       justifyContent="center"
       direction="row"
     >
-      {
-        movies.map((movie) => (
-          <Grid item xs={5} md={2.5} lg={2} xl={1.5} key={movie._id} sx={{ padding: '0 !important' }}>
-            <Movie movie={movie} />
-          </Grid>
-        ))
-      }
-    </Grid >
+      {movies.map((movie) => (
+        <Grid
+          item
+          xs={5}
+          md={2.5}
+          lg={2}
+          xl={1.5}
+          key={movie._id}
+          sx={{ padding: '0 !important' }}
+        >
+          <Movie movie={movie} />
+        </Grid>
+      ))}
+    </Grid>
   );
 };
 

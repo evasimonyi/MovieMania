@@ -11,7 +11,9 @@ import { RootState } from '../../redux/store';
 const Search = () => {
   const dispatch = useAppDispatch();
 
-  const searchedMovieTitle = useSelector((state: RootState) => state.movies.searchedMovieTitle);
+  const searchedMovieTitle = useSelector(
+    (state: RootState) => state.movies.searchedMovieTitle
+  );
 
   const handleChange = (movieTitle: string) => {
     dispatch(updateSearchedMovie(movieTitle));
@@ -52,7 +54,7 @@ const Search = () => {
             display: 'flex',
             flex: 1,
             border: 'none',
-            borderRadius: '.3em'
+            borderRadius: '.3em',
           }}
         >
           <TextField
@@ -73,7 +75,7 @@ const Search = () => {
         </FormControl>
       </FormGroup>
     </Box>
-  )
-}
+  );
+};
 
 export default Search;
